@@ -1,5 +1,5 @@
 """
-text_preprocessing_case.py - Project script (example).
+text_preprocessing_femi.py - Project script (example).
 
 Purpose
 
@@ -21,7 +21,7 @@ Notes
 
 Run from root project folder with:
 
-  uv run python -m nlp.text_preprocessing_case
+  uv run python -m nlp.text_preprocessing_femi
 """
 
 # ============================================================
@@ -62,7 +62,7 @@ log_path(LOG, "SCRIPTS_PATH", SCRIPTS_PATH)
 
 # Choose a text file to analyze.
 # Each line is treated as one text record.
-input_path: Path = DATA_PATH / "text_data_case.txt"
+input_path: Path = DATA_PATH / "text_data_femi.txt"
 
 # Read all lines from the file.
 text_list: list[str] = input_path.read_text(encoding="utf-8").splitlines()
