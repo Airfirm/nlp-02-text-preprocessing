@@ -20,8 +20,14 @@ authors:
     orcid: "https://orcid.org/0000-0001-6165-7389"
     affiliation: "Northwest Missouri State University, USA"
 
-repository-code: "https://github.com/denisecase/nlp-02-text-preprocessing"
-url: "https://github.com/denisecase/nlp-02-text-preprocessing"
+author:
+  - family-names: Salawu
+    given-names: Oluwafemi
+    orcid: "https://orcid.org/0000-0001-6165-7389"
+    affiliation: "Northwest Missouri State University, USA"
+
+repository-code: "https://github.com/Airfirm/nlp-02-text-preprocessing"
+url: "https://github.com/Airfirm/nlp-02-text-preprocessing"
 license: MIT
 
 abstract: |
