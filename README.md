@@ -8,6 +8,37 @@
 Web Mining and Applied NLP focus on retrieving, processing, and analyzing text from the web and other digital sources.
 This course builds those capabilities through working projects.
 
+## Project Enhancements
+
+This project was expanded beyond basic text preprocessing to answer additional analytical and business-focused questions. In addition to inspecting raw text, tokenization, lowercasing, punctuation removal, and stop word removal, the updated script now also explores:
+
+- most frequent cleaned tokens
+- common two-word phrases (bigrams)
+- vocabulary diversity using unique token counts and type-token ratio
+- shortest and longest text records
+- business-category keyword counts such as price, service, quality, and delivery
+
+These enhancements make the project more useful for real-world text analysis tasks such as customer feedback analysis, complaint monitoring, topic discovery, and trend identification.
+
+## Key Insights
+
+The updated analysis showed that preprocessing is only the first step in text analysis. After cleaning the text, it became easier to identify repeated words, common phrases, and broader themes. Adding bigram analysis and business-category counts made the results more meaningful and easier to connect to practical business problems.
+
+## Challenges
+
+One challenge in this project was debugging a Polars data type error caused by mixing integer and float values in the same DataFrame column. This was resolved by restructuring the vocabulary summary into separate columns. This highlighted the importance of checking data types carefully when building analytical summaries.
+
+## Suggestions for Future Improvements
+
+Possible future improvements include:
+- sentiment analysis
+- topic modeling
+- word cloud visualizations
+- named entity recognition
+- exporting summary tables to CSV for reporting
+
+
+
 In the age of generative AI, durable skills are grounded in real work:
 setting up a professional environment,
 reading and running code,
